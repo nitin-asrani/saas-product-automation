@@ -10,7 +10,7 @@ require("dotenv").config();
 
 module.exports = defineConfig({
   e2e: {
-    specPattern: "cypress/e2e/**/*.feature",
+    specPattern: ["cypress/e2e/**/*.feature", "cypress/e2e/api/**/*.spec.js"],
     baseUrl: process.env.CYPRESS_baseUrl,
     env: {
       API_URL: process.env.API_URL,
