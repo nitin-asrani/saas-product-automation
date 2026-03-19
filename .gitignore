@@ -1,0 +1,58 @@
+# Node modules
+node_modules/
+
+# Cypress folders
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# Cypress cache
+.cypress-cache/
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Build files
+dist/
+build/
+
+# Coverage reports
+coverage/
+
+# Temporary files
+tmp/
+temp/
+
+# Cypress reports (if using mochawesome/allure)
+reports/
+mochawesome-report/
+allure-results/
+allure-report/
+
+# Package lock (optional - team decision)
+# package-lock.json
+
+# Debug files
+*.pid
+*.seed
+*.pid.lock
+
+# Optional: ignore test artifacts
+*.mp4
+*.png
